@@ -8,9 +8,20 @@
 - Docker + Docker Compose
 - GitHub Actions (CI/CD)
 
-## Запуск локально
+## Необходимые секреты в GitHub:
+
+    SSH_PRIVATE_KEY - Приватный ключ для доступа к серверу
+
+    SERVER_USER - SSH пользователь (напр. ubuntu)
+
+    SERVER_HOST - IP сервера или localhost
+## Запуск локально 
 1. Установите Docker и Docker Compose.
 2. Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/your-repo/blog-api.git
-   cd blog-api
+```bash
+git clone https://github.com/ваш-username/fastapi-blog.git
+cd fastapi-blog
+docker-compose up -d
+
+    SERVER_HOST - IP сервера или localhost
+##
