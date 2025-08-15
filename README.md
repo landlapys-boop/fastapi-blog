@@ -12,7 +12,7 @@
 
     SSH_PRIVATE_KEY - Приватный ключ для доступа к серверу
 
-    SERVER_USER - SSH пользователь (напр. ubuntu)
+    SERVER_USER - SSH пользователь
 
     SERVER_HOST - IP сервера или localhost
 ## Запуск локально 
