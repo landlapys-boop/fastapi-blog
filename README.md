@@ -22,6 +22,3 @@
 git clone https://github.com/ваш-username/fastapi-blog.git
 cd fastapi-blog
 docker-compose up -d
-
-    SERVER_HOST - IP сервера или localhost
-##
